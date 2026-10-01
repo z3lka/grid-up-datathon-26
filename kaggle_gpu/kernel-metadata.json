@@ -1,0 +1,14 @@
+{
+  "id": "z3lkahmet/grid-up-gpu-rolling-catboost",
+  "title": "Grid Up GPU Rolling CatBoost",
+  "code_file": "grid_up_gpu.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "competition_sources": ["grid-up-datathon"],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}
