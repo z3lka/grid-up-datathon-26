@@ -1,8 +1,24 @@
-.venv/
-data/raw/*.csv
-data/raw/*.zip
-artifacts/
-submissions/*.csv
-__pycache__/
-*.pyc
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/
 
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Competition data and generated outputs
+/artifacts/
+/catboost_info/
+/data/raw/*
+!/data/raw/.gitkeep
+/submissions/*
+!/submissions/.gitkeep
